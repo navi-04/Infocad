@@ -1,0 +1,43 @@
+.cardTitle {
+  padding: 1rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.default {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.primary {
+  background-color: #35a0c5;
+  color: white;
+}
+
+.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.success {
+  background-color: #28a745;
+  color: white;
+}
+
+.warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.danger {
+  background-color: #dc3545;
+  color: white;
+}

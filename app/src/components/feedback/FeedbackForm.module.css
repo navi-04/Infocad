@@ -1,0 +1,29 @@
+.feedbackCard {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 1.5rem;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #495057;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.formActions button {
+  min-width: 120px;
+}

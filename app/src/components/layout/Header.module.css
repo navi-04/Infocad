@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #35a0c5;
+  color: white;
+  padding: 0 20px;
+  height: 70px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.menuToggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+
+.portalName {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.middleSection {
+  flex: 1;
+  text-align: center;
+}
+
+.collegeName {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+}
+
+.profileInfo {
+  margin-right: 10px;
+  text-align: right;
+}
+
+.userName {
+  font-weight: 500;
+  display: block;
+}
+
+.profileImage {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid white;
+}
+
+.profileImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,129 @@
+.button {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.default {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.default:hover {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.primary {
+  color: #fff;
+  background-color: #35a0c5;
+  border-color: #35a0c5;
+}
+
+.primary:hover {
+  color: #fff;
+  background-color: #2988a8;
+  border-color: #24809e;
+}
+
+.secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.secondary:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.info:hover {
+  color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.success:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.warning {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.warning:hover {
+  color: #212529;
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+.danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.danger:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.765rem;
+}
+
+.medium {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.large {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+.fullWidth {
+  width: 100%;
+  display: block;
+}
+
+.button:disabled {
+  opacity: 0.65;
+  pointer-events: none;
+}

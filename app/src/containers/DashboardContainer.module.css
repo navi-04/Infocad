@@ -1,0 +1,108 @@
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.welcomeTitle {
+  margin-bottom: 1.5rem;
+  color: #35a0c5;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.infoCards {
+  margin-bottom: 2rem;
+}
+
+.studentCard {
+  padding: 0;
+}
+
+.studentHeader {
+  background-color: #35a0c5;
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.studentBody {
+  padding: 1.5rem;
+}
+
+.infoItem {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.infoLabel {
+  font-weight: 500;
+  width: 180px;
+  color: #495057;
+}
+
+.infoValue {
+  color: #212529;
+}
+
+.contentRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.announcementCard,
+.eventsCard {
+  padding: 0;
+}
+
+.cardHeader {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #343a40;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.cardBody {
+  padding: 1rem;
+}
+
+.listItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}
+
+.itemTitle {
+  color: #343a40;
+  font-weight: 500;
+}
+
+.itemDate {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .contentRow {
+    grid-template-columns: 1fr;
+  }
+}

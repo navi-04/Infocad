@@ -1,0 +1,11 @@
+/* App-wide styles */
+:root {
+  --primary-color: #35a0c5;
+  --secondary-color: #6c757d;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --success-color: #28a745;
+  --info-color: #17a2b8;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+}

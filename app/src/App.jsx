@@ -9,7 +9,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router> 
       <Layout>
         <Routes>
           <Route path="/dashboard" element={<DashboardContainer />} />

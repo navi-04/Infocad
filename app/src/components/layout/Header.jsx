@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './Header.module.css';
-import { FaBars } from 'react-icons/fa';
+// import { FaBars } from 'react-icons/fa';
 
 const Header = ({ toggleSidebar }) => {
   return (
     <header className={styles.header}>
       <div className={styles.leftSection}>
         <button className={styles.menuToggle} onClick={toggleSidebar}>
-          <FaBars />
+          {/* <FaBars /> */}
         </button>
         <div className={styles.logoSection}>
           <h1 className={styles.portalName}>CAMS Web Portal</h1>
